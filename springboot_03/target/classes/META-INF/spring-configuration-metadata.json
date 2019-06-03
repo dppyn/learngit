@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.pyn.springboot_03.mapper.ArticleMapper",
+      "name": "mysql.datasource.slave",
+      "type": "com.pyn.springboot_03.mapper.ArticleMapper"
+    },
+    {
+      "sourceType": "com.pyn.springboot_03.config.DruidConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "druid()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

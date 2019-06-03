@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/jscript" src="../js/layedit.js" th:src="@{/Admin/js/layedit.js}"></script>
+    <script>
+        layui.use('layedit', function(){
+            var layedit = layui.layedit;
+            //建立编辑器
+            layedit.build('id', {
+                heigh: 1800px
+                tool: ['left', 'center', 'right', '|', 'face']
+            });
+        });
+    </script>
+</head>
+<body>
+<textarea id="demo" >654</textarea>
+</body>
+</html>
